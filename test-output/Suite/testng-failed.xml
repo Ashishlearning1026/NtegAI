@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="tesCases.Login">
+        <methods>
+          <include name="BeforeSuite"/>
+          <include name="AfterMethod"/>
+          <include name="BeforeMethod"/>
+          <include name="TestLoginFail"/>
+        </methods>
+      </class> <!-- tesCases.Login -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
